@@ -81,9 +81,11 @@
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
+        selectHeader.classList.add('header-scrolled');
+        selectHeader.classList.remove('header-scrolled-none')
       } else {
         selectHeader.classList.remove('header-scrolled')
+        selectHeader.classList.add('header-scrolled-none')
       }
     }
     window.addEventListener('load', headerScrolled)
