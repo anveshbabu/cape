@@ -1,0 +1,25 @@
+
+
+@import "@/styles/scss/abstracts/abstracts-dir.scss";
+.ourServicesCardContiner{
+    .ourServicesTitle{
+        font-size: 2.34375rem;
+        font-weight: 700;
+    }
+    .ourServicesSubTitle{
+        color: var( --text-grey);
+        font-size: fontSize(15px);
+       
+    }
+    .servicesCardBody{
+        padding: 1.5rem;
+        .ourServicesCardTitle{
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .ourServicesCardSubText{
+            color: var( --text-grey);
+            font-size: fontSize(15px);
+        }
+    }
+}
