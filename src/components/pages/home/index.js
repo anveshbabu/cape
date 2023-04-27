@@ -1,0 +1,5 @@
+export {default as Banner} from './banner'
+export {default as AboutCompany} from './aboutCompany'
+export {default as OurServicesCard} from './ourServicesCard'
+export {default as HaveQue} from './haveQue'
+export {default as OurCustomer} from './ourCustomer'
